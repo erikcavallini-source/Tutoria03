@@ -15,18 +15,20 @@ programa {
     escreva("Informe a 3ª nota do aluno: ")
     leia(nt3)
 
-      escreva("Informe a 4ª nota do aluno: ")
+    escreva("Informe a 4ª nota do aluno: ")
     leia(nt4)
 
-     media = (nt1 + nt2 + nt3 + nt4) / 4
+    media = (nt1 + nt2 + nt3 + nt4) / 4
 
-     escreva("\nAluno: ",nome)
-     escreva("\nMédia final: ", media)
+    escreva("\nAluno: ", nome)
+    escreva("\nMédia final: ", media)
 
-     se(media >= 7){
+    se(media >= 7){
       escreva("\nAprovado")
-     }senao{
+      escreva("\nParabéns, ", nome, "!")
+    }senao{
       escreva("\nReprovado")
-     }
+      escreva("\nEstude mais e tente novamente!")
+    }
   }
 }
